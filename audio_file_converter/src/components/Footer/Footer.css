@@ -1,0 +1,9 @@
+.footer {
+  background-color: #0d0d0d;
+  font-family: "Permanent Marker", cursive;
+  height: 10%;
+}
+
+.footer > a {
+  text-decoration: none;
+}

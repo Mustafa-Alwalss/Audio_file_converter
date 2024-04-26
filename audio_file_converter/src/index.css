@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+/* font-family: 'Permanent Marker', cursive; */
+html,
+#root {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Cairo Play", sans-serif;
+  background-color: #403e3f;
+}
+
+/* This class is for seeing the border of an element to know how the styling is applied */
+.debug {
+  border: 1px solid red;
+}
+.debugG {
+  border: 1px solid green;
+}
+/**/

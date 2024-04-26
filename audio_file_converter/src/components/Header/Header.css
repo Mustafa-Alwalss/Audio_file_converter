@@ -1,0 +1,14 @@
+/* header class */
+.header {
+  height: 8vh;
+}
+
+/* logo class */
+.logo {
+  font-style: italic;
+  font-family: "Permanent Marker", cursive;
+}
+
+.logo > b {
+  font-size: 2rem;
+}
