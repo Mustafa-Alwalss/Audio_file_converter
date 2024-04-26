@@ -1,6 +1,6 @@
 {
   "name": "audio_file_converter",
-  "homepage": "./",
+  "author": "Mustafa Alwalss",
   "private": true,
   "version": "1.0.0",
   "type": "module",
