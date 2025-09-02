@@ -24,9 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-#my logo
-*.png
-
 #audio files
 *.aac
 *.mp3
