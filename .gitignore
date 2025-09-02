@@ -32,5 +32,3 @@ dist-ssr
 *.mp3
 *.ogg
 *.wav
-backend/public/output/*
-backend/public/uploads/*
