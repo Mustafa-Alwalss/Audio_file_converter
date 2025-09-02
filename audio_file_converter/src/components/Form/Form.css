@@ -4,7 +4,7 @@
 }
 
 .LABEL {
-  border: blue solid;
+  border: rgb(50, 50, 233) solid;
   border-radius: 2rem;
   width: 100%;
   overflow: hidden;

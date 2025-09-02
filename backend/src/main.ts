@@ -8,9 +8,9 @@ const app: Express = express();
 // MIDDLEWARES
 
 // CORS
-// -OPTIONS
+// -OPTIONS 
 const options: CorsOptions = {
-  origin: process.env.ALLOWED,
+  origin:  process.env.ALLOWED || "http://localhost:5173",
   methods: "POST",
 };
 app.use(cors(options));
@@ -19,6 +19,6 @@ app.use(cors(options));
 app.use(router);
 
 // LISTEN
-app.listen(process.env.PORT || 3000, () => {
-  console.log(" بسم الله الرحمن الرحيم " + process.env.PORT);
+app.listen(process.env.PORT || 8000, () => {
+  console.log(" بسم الله الرحمن الرحيم " + "process.env.PORT");
 });
